@@ -1,8 +1,7 @@
-def my_collect (empty_array)
-  new_array = []
+def my_collect (collection)
   i = 0 
-  while i < empty_array.length
-  my_collect()
-  
+  while i < collection.length
+  i += 1
+  yield 
   
 end 
